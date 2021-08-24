@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: all 0.4s ease-in;
+    
+    
+
+}
+
+.header__scroll {
+    background-color: white;
+    border-bottom: 1.5px solid black;
+    z-index: 999;
+   
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+
+}
+.header__image {
+    width: 46px;
+    height: 46px;
+    margin-left: 10px;
+}
+
+.header__title {
+    margin-left: 10px;
+}

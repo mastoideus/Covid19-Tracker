@@ -1,0 +1,26 @@
+.question__quest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question {
+    background-color: rgb(213, 209, 209);
+   padding: 30px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+.question__question {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.question__button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}

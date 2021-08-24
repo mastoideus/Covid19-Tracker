@@ -1,0 +1,38 @@
+.table {
+    height: 350px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+.table__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.table__row:nth-of-type(odd){
+    background-color: rgb(250, 220, 220);
+}
+
+
+.table__title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+
+.table__rowCountry {
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+
+.color {
+    color: rgb(150, 239, 16);
+}
+
+.rowColor:nth-of-type(odd) {
+    background-color: rgb(222, 255, 174);
+}
