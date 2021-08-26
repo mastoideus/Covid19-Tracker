@@ -10,7 +10,6 @@ const Question =({answer, question })=>{
         setReadAnswer(prevState=>!prevState)
     }
   
-  
     return (
       <Card className='question'>
          <div className='question__quest'>
